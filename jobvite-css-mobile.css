@@ -1,6 +1,5 @@
 /* ===== SITE LAYOUT =================== */
 
-
 	.jv-page-container 	{}
 	.jv-page 			{}
 	.jv-page-content 	{}
@@ -12,10 +11,6 @@
 	.jv-page-body 		{}
 	.jv-wrapper 		{}
 	.jv-footer 			{}
-
-
-
-
 
 /* ===== JOB LISTINGS PAGE  =================== */ 
 
@@ -33,12 +28,6 @@
 	.jv-list-label 			{}
 	.jv-meta 				{}
 
-
-
-
-
-
-
 /* ========== JOB DETAILS PAGE =============== */ 
 	
 	h2.jv-header 					{}
@@ -54,10 +43,6 @@
 
 	.jv-current-openings 	{}
 	.jv-share-widget 		{}
-
-
-
-
 
 /* ========== APPLY PAGE ====================== */ 
 	
@@ -77,3 +62,5 @@
 
 	.jv-apply-form-actions 	{}
 	.note 					{}
+	
+/* ========== CUSTOM STYLES ====================== */ 

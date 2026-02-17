@@ -7,8 +7,6 @@
 	.jv-wrapper 		{ }
 	.jv-footer 			{ }
 
-
-
 /* ===== JOB LISTINGS PAGE  =================== */ 
 	
 	.jv-page-error 		{ }
@@ -21,11 +19,6 @@
 	.jv-job-list td  	{ }
 	.jv-job-list .jv-job-list-name  		{ }
 	.jv-job-list .jv-job-list-location  	{ }
-
-
-
-
-
 
 /* ========== JOB DETAILS PAGE =============== */ 
 	
@@ -44,11 +37,6 @@
 	.jv-job-detail-bottom-actions,
 	.jv-apply-form-actions 	{ }
 
-
-
-
-
-
 /* ========== APPLY PAGE ====================== */ 
 	
 	.jv-form 				{}
@@ -59,3 +47,5 @@
 	.jv-apply-section 		{}
 	.jv-step-header 		{} 		/* Section Title */
 	.jv-required-label 		{}
+	
+/* ========== CUSTOM STYLES ====================== */ 
