@@ -1,153 +1,167 @@
-/* @font-face { */
-    /* font-family: "public-sans"; */
-    /* src: */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-Thin.woff2") format("woff2"), */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-Thin.woff") format("woff"); */
-    /* font-weight: 300; */
-    /* font-style: normal; */
-    /* font-display: swap; */
-/* } */
+@font-face {
+    font-family: "public-sans";
+    src:
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-Thin.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-Thin.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
-/* @font-face { */
-    /* font-family: "public-sans"; */
-    /* src: */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-Regular.woff2") format("woff2"), */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-Regular.woff") format("woff"); */
-    /* font-weight: 400; */
-    /* font-style: normal; */
-    /* font-display: swap; */
-/* } */
+@font-face {
+    font-family: "public-sans";
+    src:
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-Regular.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 
-/* @font-face { */
-    /* font-family: "public-sans"; */
-    /* src: */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-Medium.woff2") format("woff2"), */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-Medium.woff") format("woff"); */
-    /* font-weight: 500; */
-    /* font-style: normal; */
-    /* font-display: swap; */
-/* } */
+@font-face {
+    font-family: "public-sans";
+    src:
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-Medium.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
-/* @font-face { */
-    /* font-family: "public-sans"; */
-    /* src: */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-SemiBold.woff2") format("woff2"), */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-SemiBold.woff") format("woff"); */
-    /* font-weight: 600; */
-    /* font-style: normal; */
-    /* font-display: swap; */
-/* } */
+@font-face {
+    font-family: "public-sans";
+    src:
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-SemiBold.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 
-/* @font-face { */
-    /* font-family: "public-sans"; */
-    /* src: */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-Bold.woff2") format("woff2"), */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/PublicSans-Bold.woff") format("woff"); */
-    /* font-weight: 700; */
-    /* font-style: normal; */
-    /* font-display: swap; */
-/* } */
+@font-face {
+    font-family: "public-sans";
+    src:
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-Bold.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/PublicSans-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
-/* @font-face { */
-    /* font-family: "stix-two"; */
-    /* src: */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/STIXTwoText-Regular.woff2") format("woff2"), */
-        /* url("http://smith.localhost/wp-content/themes/smith-bucklin-theme/assets/fonts/STIXTwoText-Regular.woff") format("woff"); */
-    /* font-weight: 700; */
-    /* font-style: normal; */
-    /* font-display: swap; */
-/* } */
+@font-face {
+    font-family: "stix-two";
+    src:
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/STIXTwoText-Regular.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/brandon-peaktwo/smithbucklin-css@master/fonts/STIXTwoText-Regular.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 
-/* .jv-page { */
-    /* max-width: 100% !important; */
-/* } */
+body.jv-page-jobs .jv-page {
+    max-width: 100% !important;
+}
 
-/* h2 { */
-    /* display: none; */
-/* } */
+body.jv-page-jobs h2 {
+    display: none;
+}
 
-/* h3.search-title { */
-    /* display: none; */
-/* } */
+body.jv-page-jobs h3.search-title {
+    display: none;
+}
 
-/* h3.h2 { */
-    /* color: #002B49 !important; */
-    /* font-family: "stix-two" !important; */
-/* } */
+body.jv-page-jobs h3.h2 {
+    color: #002B49 !important;
+    font-family: "stix-two" !important;
+	margin-top: 72px !important;
+}
 
-/* form { */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-    /* background: transparent !important; */
-    /* border: none !important; */
-    /* outline : none !important; */
-    /* box-shadow: none !important; */
-    /* padding: 0px !important; */
-    /* margin: 0px !important; */
-/* } */
+body.jv-page-jobs form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: transparent !important;
+    border: none !important;
+    outline : none !important;
+    box-shadow: none !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
 
-/* form .jv-form-field { */
-    /* flex: 0 0 calc(25% - 10px); */
-/* } */
+body.jv-page-jobs form .jv-form-field {
+    flex: 0 0 calc(25% - 10px);
+}
 
-/* form .jv-form-field select, */
-/* form .jv-form-field input { */
-    /* border: 1px solid #C1B8B5 !important; */
-    /* border-radius: 25px !important; */
-    /* padding: 5px 15px !important; */
-/* } */
+body.jv-page-jobs form .jv-form-field select,
+body.jv-page-jobs form .jv-form-field input {
+    border: 1px solid #C1B8B5 !important;
+    border-radius: 25px !important;
+    padding: 5px 15px !important;
+}
 
-/* form .jv-form-buttons { */
-    /* flex: 0 0 100%; */
-/* } */
+body.jv-page-jobs form .jv-form-buttons {
+    flex: 0 0 100%;
+}
 
-/* .jv-job-list li { */
-    /* background: #F6F4F4 !important; */
-    /* padding: 0px 56px !important; */
-    /* border-radius: 10px !important; */
-    /* position: relative; */
-/* } */
+body.jv-page-jobs .jv-job-list li {
+    background: #F6F4F4 !important;
+    padding: 0px 56px !important;
+    border-radius: 10px !important;
+    position: relative;
+}
 
-/* .jv-job-list li::before { */
-    /* content: 'Learn More'; */
-    /* display: block; */
-    /* position: absolute; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    /* right: 56px; */
-    /* pointer-events: none; */
-    /* font-weight: 500; */
-    /* color: #2D2825; */
-/* } */
+body.jv-page-jobs .jv-job-list li::before {
+    content: 'Learn More';
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 56px;
+    pointer-events: none;
+    font-weight: 500;
+    color: #2D2825;
+}
 
-/* .jv-job-list li:nth-of-type(n+2) { */
-    /* margin-top: 12px !important; */
-/* } */
+body.jv-page-jobs .jv-job-list li:nth-of-type(n+2) {
+    margin-top: 12px !important;
+}
 
-/* .jv-job-list .jv-job-list-name { */
-    /* width: 100% !important; */
-/* } */
+body.jv-page-jobs .jv-job-list .jv-job-list-name {
+    width: 100% !important;
+}
 
-/* .jv-job-list .jv-job-list-location { */
-    /* width: 100% !important; */
-    /* text-align: left !important; */
-    /* pointer-events: none !important; */
-    /* position: absolute !important; */
-    /* bottom: 20px !important; */
-    /* left: 0px !important; */
-    /* padding: 0px 0px 0px 56px !important; */
-    /* color: #756B69 !important; */
-/* } */
+body.jv-page-jobs .jv-job-list .jv-job-list-location {
+    width: 100% !important;
+    text-align: left !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    bottom: 20px !important;
+    left: 0px !important;
+    padding: 0px 0px 0px 56px !important;
+    color: #756B69 !important;
+}
 
-/* .jv-job-list a { */
-    /* display: block !important; */
-    /* width: 100% !important; */
-    /* padding: 20px 0px 50px 0px !important; */
-    /* font-weight: 700 !important; */
-    /* color: #2D2825 !important; */
-/* } */
+body.jv-page-jobs .jv-job-list a {
+    display: block !important;
+    width: 100% !important;
+    padding: 20px 0px 50px 0px !important;
+    font-weight: 700 !important;
+    color: #2D2825 !important;
+}
 
-/* .jv-footer { */
-    /* display: none !important; */
-/* } */
+body.jv-page-jobs .jv-footer {
+    display: none !important;
+}
+
+body.jv-page-jobs .jv-search-form.jv-form .jv-form-field-select .jv-form-field-appearance .jv-select-icon,
+body.jv-page-jobs .jv-search-form.jv-form .jv-form-field-select .jv-form-field-appearance .jv-select-icon::before {
+	color: #756B69 !important;
+}
+
+body.jv-page-jobs .fa-arrow-right {
+    color: #002B49 !important;
+}
+
+body.jv-page-jobs .jv-form-buttons button {
+	padding: 10px 16px !important;
+}
