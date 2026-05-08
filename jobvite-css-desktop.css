@@ -89,7 +89,13 @@ body.jv-page-jobs form {
 }
 
 body.jv-page-jobs form .jv-form-field {
-    flex: 0 0 calc(25% - 10px);
+    flex: 0 0 calc(25% - 10px) !important;
+}
+
+@media screen and (max-width: 840px) {
+    body.jv-page-jobs form .jv-form-field {
+        flex: 0 0 100% !important;
+    }
 }
 
 body.jv-page-jobs form .jv-form-field select,
@@ -108,6 +114,12 @@ body.jv-page-jobs .jv-job-list li {
     padding: 0px 56px !important;
     border-radius: 10px !important;
     position: relative;
+}
+
+@media screen and (max-width: 840px) {
+    body.jv-page-jobs .jv-job-list li {
+        padding: 0px 16px !important;
+    }
 }
 
 body.jv-page-jobs .jv-job-list li::before {
